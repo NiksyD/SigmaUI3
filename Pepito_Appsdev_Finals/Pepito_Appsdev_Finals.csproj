@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pepito_Appsdev_Finals</RootNamespace>
+    <AssemblyName>Pepito_Appsdev_Finals</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\CourseManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\CourseManagement.Designer.cs">
+      <DependentUpon>CourseManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\CoursePreqManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\CoursePreqManagement.Designer.cs">
+      <DependentUpon>CoursePreqManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\CourseSchedManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\CourseSchedManagement.Designer.cs">
+      <DependentUpon>CourseSchedManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\StudentDataManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\StudentDataManagement.Designer.cs">
+      <DependentUpon>StudentDataManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\StudentEnrollManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\StudentEnrollManagement.Designer.cs">
+      <DependentUpon>StudentEnrollManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layout.Designer.cs">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EnrollmentDetailFile.cs" />
+    <Compile Include="Model\EnrollmentHeaderFile.cs" />
+    <Compile Include="Model\StudentFile.cs" />
+    <Compile Include="Model\StudentGradeFile.cs" />
+    <Compile Include="Model\SubjectFile.cs" />
+    <Compile Include="Model\SubjectPreqFile.cs" />
+    <Compile Include="Model\SubjectSchedFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controller\CourseManagement.resx">
+      <DependentUpon>CourseManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\CoursePreqManagement.resx">
+      <DependentUpon>CoursePreqManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\CourseSchedManagement.resx">
+      <DependentUpon>CourseSchedManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\StudentDataManagement.resx">
+      <DependentUpon>StudentDataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\StudentEnrollManagement.resx">
+      <DependentUpon>StudentEnrollManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout.resx">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\CourseControl\" />
+    <Folder Include="Controller\CoursePrerequisiteControl\" />
+    <Folder Include="Controller\CourseScheduleControl\" />
+    <Folder Include="Controller\StudentEnrollmentControl\" />
+    <Folder Include="Controller\StudentGradingControl\" />
+    <Folder Include="Controller\StudentRecordControl\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-resources.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-list.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
