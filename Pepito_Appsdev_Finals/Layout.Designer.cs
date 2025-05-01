@@ -57,7 +57,7 @@
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1172, 12);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(29, 29);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(30, 30);
             this.guna2ControlBox1.TabIndex = 1;
             // 
             // guna2DragControl1
