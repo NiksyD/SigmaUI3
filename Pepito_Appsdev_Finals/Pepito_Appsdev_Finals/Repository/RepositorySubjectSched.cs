@@ -106,7 +106,11 @@ namespace Pepito_Appsdev_Finals.Repository
                 using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
                     connection.Open();
-                    string sql = "SELECT * FROM SubjectSchedFile;";
+                    string sql = @"
+                        SELECT ss.*, sf.SFSUBJUNITS, sf.SFSUBJDESC 
+                        FROM SubjectSchedFile ss
+                        LEFT JOIN SubjectFile sf ON ss.SSFSUBJCODE = sf.SFSUBJCODE";
+
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataAdapter adapter = new SqlDataAdapter(command))

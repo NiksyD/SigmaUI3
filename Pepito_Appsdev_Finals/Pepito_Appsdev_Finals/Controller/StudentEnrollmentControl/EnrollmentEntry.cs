@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Pepito_Appsdev_Finals.Models;
 using Pepito_Appsdev_Finals.Repository;
+using Microsoft.Data.SqlClient;
 
 namespace Pepito_Appsdev_Finals.Controller.StudentEnrollmentControl
 {
@@ -62,13 +63,13 @@ namespace Pepito_Appsdev_Finals.Controller.StudentEnrollmentControl
 
         public void SubjectRecordsReader()
         {
-            var repo = new RepositorySubjectFile();
-            var subjects = repo.GetSubjects();
+            var repo = new RepositorySubjectSched();
+            var subjects = repo.GetSubjectsSched();
             LBSubjectRecords.Items.Clear();
             
             foreach (DataRow row in subjects.Rows)
             {
-                string subjectInfo = $"{row["SFSUBJCODE"]} - {row["SFSUBJDESC"]} ({row["SFSUBJUNITS"]} units)";
+                string subjectInfo = $"{row["SSFSUBJCODE"]} - {row["SFSUBJDESC"]} ({row["SFSUBJUNITS"]} units) - {row["SFSUBJUNITS"]} ({row["SSFSTARTTIME"]} - {row["SSFENDTIME"]})";
                 LBSubjectRecords.Items.Add(subjectInfo, false);
             }
         }
@@ -178,27 +179,41 @@ namespace Pepito_Appsdev_Finals.Controller.StudentEnrollmentControl
                 return;
             }
 
-            // Step 2: Save Enrollment Details (Subjects)
+            // Step 2: Save Enrollment Details (Subjects) and Update Class Size
             var repoDetail = new RepositoryEnrollmentDetailFile();
-            foreach (var subject in selectedSubjects)
+            using (var connection = new SqlConnection(ConnectionString.GetConnectionString()))
             {
-                string[] subjectParts = subject.Split('-');
-                if (subjectParts.Length < 2) continue;
-                string subjectCode = subjectParts[0].Trim();
-
-                var enrollmentDetail = new EnrollmentDetailFile
+                connection.Open();
+                foreach (var subject in selectedSubjects)
                 {
-                    ENRDFSTUDID = studentId,
-                    ENRDFSTUDSUBJCDE = subjectCode,
-                    ENRDFSTUDEDPCODE = GenerateEdpCode(),
-                    ENRDFSTUDSTATUS = "EN"
-                };
+                    string[] subjectParts = subject.Split('-');
+                    if (subjectParts.Length < 2) continue;
+                    string subjectCode = subjectParts[0].Trim();
 
-                var resultDetail = repoDetail.AddEnrollmentDetail(enrollmentDetail);
-                if (!resultDetail.Success)
-                {
-                    MessageBox.Show($"Enrollment failed: {resultDetail.ErrorMessage}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    var enrollmentDetail = new EnrollmentDetailFile
+                    {
+                        ENRDFSTUDID = studentId,
+                        ENRDFSTUDSUBJCDE = subjectCode,
+                        ENRDFSTUDEDPCODE = GenerateEdpCode(),
+                        ENRDFSTUDSTATUS = "EN"
+                    };
+
+                    var resultDetail = repoDetail.AddEnrollmentDetail(enrollmentDetail);
+                    if (!resultDetail.Success)
+                    {
+                        MessageBox.Show($"Enrollment failed: {resultDetail.ErrorMessage}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    // Update the class size in SubjectSchedFile
+                    using (var command = new SqlCommand(@"
+                        UPDATE SubjectSchedFile 
+                        SET SSFCLASSSIZE = SSFCLASSSIZE + 1 
+                        WHERE SSFSUBJCODE = @SubjectCode", connection))
+                    {
+                        command.Parameters.AddWithValue("@SubjectCode", subjectCode);
+                        command.ExecuteNonQuery();
+                    }
                 }
             }
 
