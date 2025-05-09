@@ -205,6 +205,7 @@
             this.Name = "Layout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enrollment System";
+            this.Load += new System.EventHandler(this.Layout_Load);
             this.topBar.ResumeLayout(false);
             this.NavLinks.ResumeLayout(false);
             this.ResumeLayout(false);

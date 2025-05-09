@@ -23,7 +23,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseControl
         private void InitializeComboBoxes()
         {
             // Initialize Offering combo box
-            CBOffering.Items.AddRange(new string[] { "1st Semester", "2nd Semester", "Summer" });
+            CBOffering.Items.AddRange(new string[] { "1st Semester", "2nd Semester" });
             CBOffering.SelectedIndex = 0;
 
             // Initialize Category combo box
@@ -56,6 +56,15 @@ namespace Pepito_Appsdev_Finals.Controller.CourseControl
             {
                 MessageDialog.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning;
                 MessageDialog.Show("Year must be between 1 and 5.", "Validation Error");
+                return;
+            }
+
+            // Validate description length
+            const int MAX_DESCRIPTION_LENGTH = 40;
+            if (TBDescription.Text.Length > MAX_DESCRIPTION_LENGTH)
+            {
+                MessageDialog.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning;
+                MessageDialog.Show($"Description exceeds maximum length of {MAX_DESCRIPTION_LENGTH} characters. It will be truncated.", "Warning");
                 return;
             }
 

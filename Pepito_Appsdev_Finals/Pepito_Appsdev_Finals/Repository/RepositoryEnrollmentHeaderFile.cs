@@ -194,7 +194,30 @@ namespace Pepito_Appsdev_Finals.Repository
             return isEnrolled;
         }
 
-
+        public int GetTotalEnrolledStudents()
+        {
+            int count = 0;
+            try
+            {
+                using (var connection = new SqlConnection(ConnectionString.GetConnectionString()))
+                using (var command = new SqlCommand(@"
+                SELECT COUNT(*) 
+                FROM EnrollmentHeaderFile;", connection))
+                {
+                    connection.Open();
+                    count = (int)command.ExecuteScalar();
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine($"SQL Exception: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception: {ex.Message}");
+            }
+            return count;
+        }
 
         public sealed class Result
         {

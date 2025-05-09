@@ -69,7 +69,7 @@ namespace Pepito_Appsdev_Finals.Controller.StudentEnrollmentControl
             
             foreach (DataRow row in subjects.Rows)
             {
-                string subjectInfo = $"{row["SSFSUBJCODE"]} - {row["SFSUBJDESC"]} ({row["SFSUBJUNITS"]} units) - {row["SFSUBJUNITS"]} ({row["SSFSTARTTIME"]} - {row["SSFENDTIME"]})";
+                string subjectInfo = $"{row["SSFSUBJCODE"]} - {row["SFSUBJDESC"]} ({row["SFSUBJUNITS"]} units) - {row["SSFSTARTTIME"]} - {row["SSFENDTIME"]}";
                 LBSubjectRecords.Items.Add(subjectInfo, false);
             }
         }
@@ -84,14 +84,20 @@ namespace Pepito_Appsdev_Finals.Controller.StudentEnrollmentControl
                 if (isChecked)
                 {
                     string itemText = LBSubjectRecords.Items[i].ToString();
-                    string unitsStr = itemText.Substring(itemText.LastIndexOf("(") + 1).Replace(" units)", "");
-                    if (float.TryParse(unitsStr, out float units))
+                    // Extract units from the string (format: "SUBJCODE - Description (X units) - Time")
+                    int startIndex = itemText.IndexOf("(") + 1;
+                    int endIndex = itemText.IndexOf(" units)");
+                    if (startIndex > 0 && endIndex > startIndex)
                     {
-                        totalUnits += units;
+                        string unitsStr = itemText.Substring(startIndex, endIndex - startIndex);
+                        if (float.TryParse(unitsStr, out float units))
+                        {
+                            totalUnits += units;
+                        }
                     }
                 }
             }
-            LBLUnitsCount.Text = totalUnits.ToString();
+            LBLUnitsCount.Text = totalUnits.ToString("F1"); // Format to 1 decimal place
         }
 
         private void BTNBack_Click(object sender, EventArgs e)

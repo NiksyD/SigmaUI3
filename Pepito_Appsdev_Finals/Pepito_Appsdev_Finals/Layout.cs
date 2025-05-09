@@ -59,5 +59,10 @@ namespace Pepito_Appsdev_Finals
                 ShowUserControl(new Home(), tpHome);
             }
         }
+
+        private void Layout_Load(object sender, EventArgs e)
+        {
+            ShowUserControl(new Home(), tpHome);
+        }
     }
 }
