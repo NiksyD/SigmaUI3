@@ -2,7 +2,7 @@
 
 Updated as of May 13, 2025.
 
-A modern Windows Forms application built with .NET, providing an enhanced user interface experience.
+A comprehensive enrollment management system that streamlines student registration, course management, and academic record keeping. Features include student information management, course scheduling, grade tracking, and enrollment status monitoring.
 
 ## Tech Stack
 
