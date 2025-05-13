@@ -8,11 +8,11 @@ namespace Pepito_Appsdev_Finals.Models
 {
     public class EnrollmentHeaderFile
     {
+        public string ENRHFSTUDENCODER { get; set; } // Max 15 chars
+        public DateTime ENRHFSTUDDATEENROLL { get; set; } 
+        public double ENRHFSTUDTOTALUNITS { get; set; }
+        public string ENRHFSTUDSCHLYR { get; set; } //Max 15 chars
+        public string ENRHFSTUDSTATUS { get; set; } //Enrolled or Unenrolled
         public long ENRHFSTUDID { get; set; } // Student ID (Primary Key)
-        public DateTime ENRHFSTUDDATEENROLL { get; set; } // Date Enrolled
-        public string ENRHFSTUDSCHLYR { get; set; } // School Year (Max 15 chars)
-        public string ENRHFSTUDENCODER { get; set; } // Encoder Name (Max 15 chars)
-        public double ENRHFSTUDTOTALUNITS { get; set; } // Total Enrolled Units
-        public string ENRHFSTUDSTATUS { get; set; } // Status: Enrolled / Unenrolled
     }
 }

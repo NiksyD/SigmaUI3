@@ -46,17 +46,17 @@ public class StudentFile
     } // Course
 
     [Required]
-    public int STFSTUDYEAR { get; set; } // Year Level
+    public int STFSTUDYEAR { get; set; }
 
     [Required]
     [StringLength(15)]
     [EnumDataType(typeof(StudentRemarks))]
-    public string STFSTUDREMARKS { get; set; } // Remarks
+    public string STFSTUDREMARKS { get; set; }
 
     [Required]
     [StringLength(8)]
     [EnumDataType(typeof(StudentStatus))]
-    public string STFSTUDSTATUS { get; set; } // Status
+    public string STFSTUDSTATUS { get; set; }
 
     // Convert string to Title Case
     private string ToTitleCase(string input)

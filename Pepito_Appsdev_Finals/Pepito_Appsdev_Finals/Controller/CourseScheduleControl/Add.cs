@@ -73,7 +73,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
         private void BTNSave_Click(object sender, EventArgs e)
         {
             // Validate required fields
-            if (string.IsNullOrWhiteSpace(TBEdpCode.Text) ||
+            if (string.IsNullOrWhiteSpace(TBSubjectCode.Text) ||
                 string.IsNullOrWhiteSpace(TBSubjectCode.Text) ||
                 string.IsNullOrWhiteSpace(CBDays.Text) ||
                 string.IsNullOrWhiteSpace(TBRoom.Text) ||
@@ -111,7 +111,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
             }
 
             // Check if EDP code already exists
-            if (_repository.IsSubjectSchedExists(TBEdpCode.Text.Trim()))
+            if (_repository.IsSubjectSchedExists(TBSubjectCode.Text.Trim()))
             {
                 MessageDialog.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning;
                 MessageDialog.Show("EDP Code already exists. Please use a different code.", "Duplicate Entry");
@@ -135,7 +135,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
                 // Create new schedule object
                 var schedule = new SubjectSchedFile
                 {
-                    SSFEDPCODE = TBEdpCode.Text.Trim(),
+                    SSFEDPCODE = TBSubjectCode.Text.Trim(),
                     SSFSUBJCODE = TBSubjectCode.Text.Trim(),
                     SSFSTARTTIME = DateTime.Today.Add(startTime), // Convert TimeSpan to DateTime
                     SSFENDTIME = DateTime.Today.Add(endTime), // Convert TimeSpan to DateTime
@@ -198,6 +198,13 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void Add_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'appsdevEnrollmentDataSet3.SubjectFile' table. You can move, or remove it, as needed.
+            this.subjectFileTableAdapter.Fill(this.appsdevEnrollmentDataSet3.SubjectFile);
+
         }
     }
 }

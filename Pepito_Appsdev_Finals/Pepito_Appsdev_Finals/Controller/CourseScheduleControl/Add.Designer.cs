@@ -36,25 +36,36 @@
             this.BTNSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BTNCancel = new Guna.UI2.WinForms.Guna2GradientButton();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.TBEdpCode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.TBSubjectCode = new Guna.UI2.WinForms.Guna2TextBox();
             this.CBDays = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.CBStatus = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.CBMeridianTimeFormat = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.TBClassSection = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.DTPStartTime = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.DTPEndTime = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.TBRoom = new Guna.UI2.WinForms.Guna2TextBox();
-            this.NUDClassMaxSize = new System.Windows.Forms.NumericUpDown();
-            this.NUDStudentEnrolledCount = new System.Windows.Forms.NumericUpDown();
-            this.DTPYear = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.NUDClassMaxSize = new System.Windows.Forms.NumericUpDown();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.NUDStudentEnrolledCount = new System.Windows.Forms.NumericUpDown();
+            this.CBStatus = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.CBMeridianTimeFormat = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.TBClassSection = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DTPYear = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.TBSubjectCode = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.appsdevEnrollmentDataSet1 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet1();
+            this.appsdevEnrollmentDataSet2 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet2();
+            this.appsdevEnrollmentDataSet = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet();
+            this.TBEdpCode = new Guna.UI2.WinForms.Guna2TextBox();
+            this.appsdevEnrollmentDataSet3 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet3();
+            this.subjectFileBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.subjectFileTableAdapter = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet3TableAdapters.SubjectFileTableAdapter();
             this.ControlPanel.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDClassMaxSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDStudentEnrolledCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subjectFileBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -160,66 +171,8 @@
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(375, 560);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(375, 606);
             this.flowLayoutPanel1.TabIndex = 8;
-            // 
-            // TBEdpCode
-            // 
-            this.TBEdpCode.Animated = true;
-            this.TBEdpCode.BackColor = System.Drawing.Color.Transparent;
-            this.TBEdpCode.BorderRadius = 15;
-            this.TBEdpCode.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TBEdpCode.CustomizableEdges.BottomLeft = false;
-            this.TBEdpCode.CustomizableEdges.TopRight = false;
-            this.TBEdpCode.DefaultText = "";
-            this.TBEdpCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TBEdpCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TBEdpCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBEdpCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBEdpCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.TBEdpCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBEdpCode.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TBEdpCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.TBEdpCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBEdpCode.Location = new System.Drawing.Point(5, 5);
-            this.TBEdpCode.Margin = new System.Windows.Forms.Padding(0);
-            this.TBEdpCode.Name = "TBEdpCode";
-            this.TBEdpCode.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.TBEdpCode.PlaceholderText = "EDP Code";
-            this.TBEdpCode.SelectedText = "";
-            this.TBEdpCode.ShadowDecoration.Color = System.Drawing.Color.White;
-            this.TBEdpCode.ShadowDecoration.Depth = 20;
-            this.TBEdpCode.Size = new System.Drawing.Size(365, 36);
-            this.TBEdpCode.TabIndex = 2;
-            // 
-            // TBSubjectCode
-            // 
-            this.TBSubjectCode.Animated = true;
-            this.TBSubjectCode.BackColor = System.Drawing.Color.Transparent;
-            this.TBSubjectCode.BorderRadius = 15;
-            this.TBSubjectCode.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TBSubjectCode.CustomizableEdges.BottomLeft = false;
-            this.TBSubjectCode.CustomizableEdges.TopRight = false;
-            this.TBSubjectCode.DefaultText = "";
-            this.TBSubjectCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TBSubjectCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TBSubjectCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBSubjectCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBSubjectCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.TBSubjectCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBSubjectCode.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TBSubjectCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.TBSubjectCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBSubjectCode.Location = new System.Drawing.Point(5, 51);
-            this.TBSubjectCode.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.TBSubjectCode.Name = "TBSubjectCode";
-            this.TBSubjectCode.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.TBSubjectCode.PlaceholderText = "Subject Code";
-            this.TBSubjectCode.SelectedText = "";
-            this.TBSubjectCode.ShadowDecoration.Color = System.Drawing.Color.White;
-            this.TBSubjectCode.ShadowDecoration.Depth = 20;
-            this.TBSubjectCode.Size = new System.Drawing.Size(365, 36);
-            this.TBSubjectCode.TabIndex = 3;
             // 
             // CBDays
             // 
@@ -243,6 +196,123 @@
             this.CBDays.ShadowDecoration.Depth = 20;
             this.CBDays.Size = new System.Drawing.Size(365, 36);
             this.CBDays.TabIndex = 4;
+            // 
+            // DTPStartTime
+            // 
+            this.DTPStartTime.Animated = true;
+            this.DTPStartTime.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+            this.DTPStartTime.BorderRadius = 15;
+            this.DTPStartTime.Checked = true;
+            this.DTPStartTime.CustomizableEdges.BottomLeft = false;
+            this.DTPStartTime.CustomizableEdges.TopRight = false;
+            this.DTPStartTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.DTPStartTime.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DTPStartTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.DTPStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.DTPStartTime.Location = new System.Drawing.Point(5, 143);
+            this.DTPStartTime.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.DTPStartTime.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.DTPStartTime.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.DTPStartTime.Name = "DTPStartTime";
+            this.DTPStartTime.ShowUpDown = true;
+            this.DTPStartTime.Size = new System.Drawing.Size(365, 36);
+            this.DTPStartTime.TabIndex = 11;
+            this.DTPStartTime.Value = new System.DateTime(2025, 5, 1, 21, 10, 2, 322);
+            // 
+            // DTPEndTime
+            // 
+            this.DTPEndTime.Animated = true;
+            this.DTPEndTime.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+            this.DTPEndTime.BorderRadius = 15;
+            this.DTPEndTime.Checked = true;
+            this.DTPEndTime.CustomizableEdges.BottomLeft = false;
+            this.DTPEndTime.CustomizableEdges.TopRight = false;
+            this.DTPEndTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.DTPEndTime.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DTPEndTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.DTPEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.DTPEndTime.Location = new System.Drawing.Point(5, 189);
+            this.DTPEndTime.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.DTPEndTime.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.DTPEndTime.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.DTPEndTime.Name = "DTPEndTime";
+            this.DTPEndTime.ShowUpDown = true;
+            this.DTPEndTime.Size = new System.Drawing.Size(365, 36);
+            this.DTPEndTime.TabIndex = 12;
+            this.DTPEndTime.Value = new System.DateTime(2025, 5, 1, 20, 42, 20, 169);
+            // 
+            // TBRoom
+            // 
+            this.TBRoom.Animated = true;
+            this.TBRoom.BackColor = System.Drawing.Color.Transparent;
+            this.TBRoom.BorderRadius = 15;
+            this.TBRoom.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TBRoom.CustomizableEdges.BottomLeft = false;
+            this.TBRoom.CustomizableEdges.TopRight = false;
+            this.TBRoom.DefaultText = "";
+            this.TBRoom.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TBRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TBRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TBRoom.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TBRoom.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.TBRoom.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBRoom.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TBRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.TBRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBRoom.Location = new System.Drawing.Point(5, 235);
+            this.TBRoom.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.TBRoom.Name = "TBRoom";
+            this.TBRoom.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.TBRoom.PlaceholderText = "Room (up to 3 characters)";
+            this.TBRoom.SelectedText = "";
+            this.TBRoom.ShadowDecoration.Color = System.Drawing.Color.White;
+            this.TBRoom.ShadowDecoration.Depth = 20;
+            this.TBRoom.Size = new System.Drawing.Size(365, 36);
+            this.TBRoom.TabIndex = 13;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(5, 281);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 15);
+            this.guna2HtmlLabel1.TabIndex = 11;
+            this.guna2HtmlLabel1.Text = "Max Number of Students";
+            // 
+            // NUDClassMaxSize
+            // 
+            this.NUDClassMaxSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.NUDClassMaxSize.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.NUDClassMaxSize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.NUDClassMaxSize.Location = new System.Drawing.Point(5, 296);
+            this.NUDClassMaxSize.Margin = new System.Windows.Forms.Padding(0);
+            this.NUDClassMaxSize.Name = "NUDClassMaxSize";
+            this.NUDClassMaxSize.Size = new System.Drawing.Size(365, 25);
+            this.NUDClassMaxSize.TabIndex = 11;
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(5, 331);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(138, 15);
+            this.guna2HtmlLabel2.TabIndex = 12;
+            this.guna2HtmlLabel2.Text = "Number of Enrolled Students";
+            // 
+            // NUDStudentEnrolledCount
+            // 
+            this.NUDStudentEnrolledCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.NUDStudentEnrolledCount.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.NUDStudentEnrolledCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.NUDStudentEnrolledCount.Location = new System.Drawing.Point(5, 346);
+            this.NUDStudentEnrolledCount.Margin = new System.Windows.Forms.Padding(0);
+            this.NUDStudentEnrolledCount.Name = "NUDStudentEnrolledCount";
+            this.NUDStudentEnrolledCount.Size = new System.Drawing.Size(365, 25);
+            this.NUDStudentEnrolledCount.TabIndex = 14;
             // 
             // CBStatus
             // 
@@ -319,107 +389,6 @@
             this.TBClassSection.Size = new System.Drawing.Size(365, 36);
             this.TBClassSection.TabIndex = 6;
             // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this.ControlPanel;
-            this.guna2DragControl1.UseTransparentDrag = true;
-            // 
-            // DTPStartTime
-            // 
-            this.DTPStartTime.Animated = true;
-            this.DTPStartTime.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-            this.DTPStartTime.BorderRadius = 15;
-            this.DTPStartTime.Checked = true;
-            this.DTPStartTime.CustomizableEdges.BottomLeft = false;
-            this.DTPStartTime.CustomizableEdges.TopRight = false;
-            this.DTPStartTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.DTPStartTime.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DTPStartTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.DTPStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.DTPStartTime.Location = new System.Drawing.Point(5, 143);
-            this.DTPStartTime.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.DTPStartTime.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.DTPStartTime.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.DTPStartTime.Name = "DTPStartTime";
-            this.DTPStartTime.ShowUpDown = true;
-            this.DTPStartTime.Size = new System.Drawing.Size(365, 36);
-            this.DTPStartTime.TabIndex = 11;
-            this.DTPStartTime.Value = new System.DateTime(2025, 5, 1, 21, 10, 2, 322);
-            // 
-            // DTPEndTime
-            // 
-            this.DTPEndTime.Animated = true;
-            this.DTPEndTime.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-            this.DTPEndTime.BorderRadius = 15;
-            this.DTPEndTime.Checked = true;
-            this.DTPEndTime.CustomizableEdges.BottomLeft = false;
-            this.DTPEndTime.CustomizableEdges.TopRight = false;
-            this.DTPEndTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.DTPEndTime.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DTPEndTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.DTPEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.DTPEndTime.Location = new System.Drawing.Point(5, 189);
-            this.DTPEndTime.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.DTPEndTime.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.DTPEndTime.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.DTPEndTime.Name = "DTPEndTime";
-            this.DTPEndTime.ShowUpDown = true;
-            this.DTPEndTime.Size = new System.Drawing.Size(365, 36);
-            this.DTPEndTime.TabIndex = 12;
-            this.DTPEndTime.Value = new System.DateTime(2025, 5, 1, 20, 42, 20, 169);
-            // 
-            // TBRoom
-            // 
-            this.TBRoom.Animated = true;
-            this.TBRoom.BackColor = System.Drawing.Color.Transparent;
-            this.TBRoom.BorderRadius = 15;
-            this.TBRoom.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TBRoom.CustomizableEdges.BottomLeft = false;
-            this.TBRoom.CustomizableEdges.TopRight = false;
-            this.TBRoom.DefaultText = "";
-            this.TBRoom.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TBRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TBRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBRoom.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBRoom.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.TBRoom.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBRoom.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TBRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.TBRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBRoom.Location = new System.Drawing.Point(5, 235);
-            this.TBRoom.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.TBRoom.Name = "TBRoom";
-            this.TBRoom.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.TBRoom.PlaceholderText = "Room (up to 3 characters)";
-            this.TBRoom.SelectedText = "";
-            this.TBRoom.ShadowDecoration.Color = System.Drawing.Color.White;
-            this.TBRoom.ShadowDecoration.Depth = 20;
-            this.TBRoom.Size = new System.Drawing.Size(365, 36);
-            this.TBRoom.TabIndex = 13;
-            // 
-            // NUDClassMaxSize
-            // 
-            this.NUDClassMaxSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.NUDClassMaxSize.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.NUDClassMaxSize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.NUDClassMaxSize.Location = new System.Drawing.Point(5, 296);
-            this.NUDClassMaxSize.Margin = new System.Windows.Forms.Padding(0);
-            this.NUDClassMaxSize.Name = "NUDClassMaxSize";
-            this.NUDClassMaxSize.Size = new System.Drawing.Size(365, 25);
-            this.NUDClassMaxSize.TabIndex = 11;
-            // 
-            // NUDStudentEnrolledCount
-            // 
-            this.NUDStudentEnrolledCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.NUDStudentEnrolledCount.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.NUDStudentEnrolledCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.NUDStudentEnrolledCount.Location = new System.Drawing.Point(5, 346);
-            this.NUDStudentEnrolledCount.Margin = new System.Windows.Forms.Padding(0);
-            this.NUDStudentEnrolledCount.Name = "NUDStudentEnrolledCount";
-            this.NUDStudentEnrolledCount.Size = new System.Drawing.Size(365, 25);
-            this.NUDStudentEnrolledCount.TabIndex = 14;
-            // 
             // DTPYear
             // 
             this.DTPYear.Animated = true;
@@ -443,27 +412,94 @@
             this.DTPYear.TabIndex = 13;
             this.DTPYear.Value = new System.DateTime(2025, 5, 1, 20, 42, 20, 169);
             // 
-            // guna2HtmlLabel1
+            // guna2DragControl1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(5, 281);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 15);
-            this.guna2HtmlLabel1.TabIndex = 11;
-            this.guna2HtmlLabel1.Text = "Max Number of Students";
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.ControlPanel;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
-            // guna2HtmlLabel2
+            // TBSubjectCode
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(5, 331);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(138, 15);
-            this.guna2HtmlLabel2.TabIndex = 12;
-            this.guna2HtmlLabel2.Text = "Number of Enrolled Students";
+            this.TBSubjectCode.BackColor = System.Drawing.Color.Transparent;
+            this.TBSubjectCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.TBSubjectCode.BorderRadius = 15;
+            this.TBSubjectCode.CustomizableEdges.BottomLeft = false;
+            this.TBSubjectCode.CustomizableEdges.TopRight = false;
+            this.TBSubjectCode.DataSource = this.subjectFileBindingSource;
+            this.TBSubjectCode.DisplayMember = "SFSUBJCODE";
+            this.TBSubjectCode.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.TBSubjectCode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TBSubjectCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.TBSubjectCode.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBSubjectCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBSubjectCode.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TBSubjectCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.TBSubjectCode.ItemHeight = 30;
+            this.TBSubjectCode.Location = new System.Drawing.Point(5, 51);
+            this.TBSubjectCode.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.TBSubjectCode.Name = "TBSubjectCode";
+            this.TBSubjectCode.ShadowDecoration.Color = System.Drawing.Color.White;
+            this.TBSubjectCode.ShadowDecoration.Depth = 20;
+            this.TBSubjectCode.Size = new System.Drawing.Size(365, 36);
+            this.TBSubjectCode.TabIndex = 15;
+            // 
+            // appsdevEnrollmentDataSet1
+            // 
+            this.appsdevEnrollmentDataSet1.DataSetName = "AppsdevEnrollmentDataSet1";
+            this.appsdevEnrollmentDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // appsdevEnrollmentDataSet2
+            // 
+            this.appsdevEnrollmentDataSet2.DataSetName = "AppsdevEnrollmentDataSet2";
+            this.appsdevEnrollmentDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // appsdevEnrollmentDataSet
+            // 
+            this.appsdevEnrollmentDataSet.DataSetName = "AppsdevEnrollmentDataSet";
+            this.appsdevEnrollmentDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // TBEdpCode
+            // 
+            this.TBEdpCode.Animated = true;
+            this.TBEdpCode.BackColor = System.Drawing.Color.Transparent;
+            this.TBEdpCode.BorderRadius = 15;
+            this.TBEdpCode.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TBEdpCode.CustomizableEdges.BottomLeft = false;
+            this.TBEdpCode.CustomizableEdges.TopRight = false;
+            this.TBEdpCode.DefaultText = "";
+            this.TBEdpCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TBEdpCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TBEdpCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TBEdpCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TBEdpCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.TBEdpCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBEdpCode.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TBEdpCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.TBEdpCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBEdpCode.Location = new System.Drawing.Point(5, 5);
+            this.TBEdpCode.Margin = new System.Windows.Forms.Padding(0);
+            this.TBEdpCode.Name = "TBEdpCode";
+            this.TBEdpCode.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.TBEdpCode.PlaceholderText = "EDP Code";
+            this.TBEdpCode.SelectedText = "";
+            this.TBEdpCode.ShadowDecoration.Color = System.Drawing.Color.White;
+            this.TBEdpCode.ShadowDecoration.Depth = 20;
+            this.TBEdpCode.Size = new System.Drawing.Size(365, 36);
+            this.TBEdpCode.TabIndex = 2;
+            // 
+            // appsdevEnrollmentDataSet3
+            // 
+            this.appsdevEnrollmentDataSet3.DataSetName = "AppsdevEnrollmentDataSet3";
+            this.appsdevEnrollmentDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // subjectFileBindingSource
+            // 
+            this.subjectFileBindingSource.DataMember = "SubjectFile";
+            this.subjectFileBindingSource.DataSource = this.appsdevEnrollmentDataSet3;
+            // 
+            // subjectFileTableAdapter
+            // 
+            this.subjectFileTableAdapter.ClearBeforeFill = true;
             // 
             // Add
             // 
@@ -479,11 +515,17 @@
             this.Name = "Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add";
+            this.Load += new System.EventHandler(this.Add_Load);
             this.ControlPanel.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDClassMaxSize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDStudentEnrolledCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subjectFileBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -498,8 +540,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton BTNSave;
         private Guna.UI2.WinForms.Guna2GradientButton BTNCancel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Guna.UI2.WinForms.Guna2TextBox TBEdpCode;
-        private Guna.UI2.WinForms.Guna2TextBox TBSubjectCode;
         private Guna.UI2.WinForms.Guna2ComboBox CBDays;
         private Guna.UI2.WinForms.Guna2ComboBox CBStatus;
         private Guna.UI2.WinForms.Guna2ComboBox CBMeridianTimeFormat;
@@ -513,5 +553,13 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker DTPYear;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2ComboBox TBSubjectCode;
+        private AppsdevEnrollmentDataSet1 appsdevEnrollmentDataSet1;
+        private AppsdevEnrollmentDataSet2 appsdevEnrollmentDataSet2;
+        private AppsdevEnrollmentDataSet appsdevEnrollmentDataSet;
+        private Guna.UI2.WinForms.Guna2TextBox TBEdpCode;
+        private AppsdevEnrollmentDataSet3 appsdevEnrollmentDataSet3;
+        private System.Windows.Forms.BindingSource subjectFileBindingSource;
+        private AppsdevEnrollmentDataSet3TableAdapters.SubjectFileTableAdapter subjectFileTableAdapter;
     }
 }

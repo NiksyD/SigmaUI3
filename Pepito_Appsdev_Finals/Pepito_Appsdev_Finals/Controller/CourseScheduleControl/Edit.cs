@@ -59,7 +59,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
             if (_schedule != null)
             {
                 TBEdpCode.Text = _schedule.SSFEDPCODE;
-                TBSubjectCode.Text = _schedule.SSFSUBJCODE;
+                CBSubjectCode.Text = _schedule.SSFSUBJCODE;
                 DTPStartTime.Value = _schedule.SSFSTARTTIME;
                 DTPEndTime.Value = _schedule.SSFENDTIME;
                 CBDays.SelectedItem = _schedule.SSFDAYS;
@@ -103,7 +103,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
         {
             // Validate required fields
             if (string.IsNullOrWhiteSpace(TBEdpCode.Text) ||
-                string.IsNullOrWhiteSpace(TBSubjectCode.Text) ||
+                string.IsNullOrWhiteSpace(CBSubjectCode.Text) ||
                 string.IsNullOrWhiteSpace(CBDays.Text) ||
                 string.IsNullOrWhiteSpace(TBRoom.Text) ||
                 string.IsNullOrWhiteSpace(CBStatus.Text) ||
@@ -155,7 +155,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
             {
                 // Update schedule object
                 // Don't update SSFEDPCODE as it's the primary key
-                _schedule.SSFSUBJCODE = TBSubjectCode.Text.Trim();
+                _schedule.SSFSUBJCODE = CBSubjectCode.Text.Trim();
                 _schedule.SSFSTARTTIME = DTPStartTime.Value;
                 _schedule.SSFENDTIME = DTPEndTime.Value;
                 _schedule.SSFDAYS = CBDays.Text.Trim();
@@ -219,6 +219,13 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void Edit_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'appsdevEnrollmentDataSet4.SubjectFile' table. You can move, or remove it, as needed.
+            this.subjectFileTableAdapter.Fill(this.appsdevEnrollmentDataSet4.SubjectFile);
+
         }
     }
 }

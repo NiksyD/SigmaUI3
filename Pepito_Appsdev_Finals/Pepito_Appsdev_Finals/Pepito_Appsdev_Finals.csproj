@@ -197,6 +197,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppsdevEnrollmentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppsdevEnrollmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AppsdevEnrollmentDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppsdevEnrollmentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AppsdevEnrollmentDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppsdevEnrollmentDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AppsdevEnrollmentDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppsdevEnrollmentDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AppsdevEnrollmentDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppsdevEnrollmentDataSet4.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Controller\CourseControl\Add.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -395,6 +420,61 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="AppsdevEnrollmentDataSet.xsc">
+      <DependentUpon>AppsdevEnrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppsdevEnrollmentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet.xss">
+      <DependentUpon>AppsdevEnrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet1.xsc">
+      <DependentUpon>AppsdevEnrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppsdevEnrollmentDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet1.xss">
+      <DependentUpon>AppsdevEnrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet2.xsc">
+      <DependentUpon>AppsdevEnrollmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppsdevEnrollmentDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet2.xss">
+      <DependentUpon>AppsdevEnrollmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet3.xsc">
+      <DependentUpon>AppsdevEnrollmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppsdevEnrollmentDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet3.xss">
+      <DependentUpon>AppsdevEnrollmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet4.xsc">
+      <DependentUpon>AppsdevEnrollmentDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppsdevEnrollmentDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppsdevEnrollmentDataSet4.xss">
+      <DependentUpon>AppsdevEnrollmentDataSet4.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -409,7 +489,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add.png" />
   </ItemGroup>
