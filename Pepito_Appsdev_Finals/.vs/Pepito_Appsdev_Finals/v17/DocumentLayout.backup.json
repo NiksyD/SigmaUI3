@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\courseschedulecontrol\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\courseschedulecontrol\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\courseschedulecontrol\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\courseschedulecontrol\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|c:\\users\\nikop\\onedrive\\desktop\\dev\\pepito_appsdev_finals\\pepito_appsdev_finals\\controller\\courseschedulecontrol\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\courseschedulecontrol\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\courseschedulecontrol\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\courseschedulecontrol\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\courseschedulecontrol\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\courseschedulecontrol\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\courseschedmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -27,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\model\\studentgradefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|c:\\users\\nikop\\onedrive\\desktop\\dev\\pepito_appsdev_finals\\pepito_appsdev_finals\\model\\studentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\model\\studentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\model\\studentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\model\\enrollmentheaderfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|c:\\users\\nikop\\onedrive\\desktop\\dev\\pepito_appsdev_finals\\pepito_appsdev_finals\\controller\\studentenrollmentcontrol\\enrollmententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\studentenrollmentcontrol\\enrollmententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\studentenrollmentcontrol\\enrollmententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -89,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\model\\subjectschedfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\model\\subjectschedfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\studentenrollmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -183,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\courseschedulecontrol\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\courseschedulecontrol\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\pepito_appsdev_finals\\controller\\coursemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{891A5C6D-9ABF-40A9-89EE-5099982AD9F9}|Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals.csproj|solutionrelative:pepito_appsdev_finals\\controller\\coursemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -234,21 +230,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentFile.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwD4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:09:27.39Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
@@ -267,59 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnrollmentEntry.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAcwKcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:18:01.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EnrollmentDetailFile.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:46:32.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnrollmentHeaderFile.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:47:49.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StudentGradeFile.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:48:00.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "SubjectFile.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\SubjectFile.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\SubjectFile.cs",
@@ -327,20 +258,20 @@
               "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\SubjectFile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:48:04.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T12:48:04.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CourseSchedManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs [Design]",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Edit.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwGcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:16:42.66Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-01T12:37:44.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -356,7 +287,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Add.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAQwIkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:52:05.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Edit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
@@ -368,20 +312,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Edit.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAvwKIAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StudentGradeFile.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\StudentGradeFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:37:44.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T12:48:00.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnrollmentHeaderFile.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\EnrollmentHeaderFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:47:49.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnrollmentDetailFile.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\EnrollmentDetailFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:46:32.518Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "EnrollmentEntry.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAcwKcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:18:01.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentFile.cs",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\StudentFile.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:09:27.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseSchedManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
+              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
+              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs [Design]",
+              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:16:42.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "EnrollmentEntry.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrollmentEntry.cs",
@@ -392,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RepositorySubjectSched.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Repository\\RepositorySubjectSched.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Repository\\RepositorySubjectSched.cs",
@@ -404,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CourseSchedManagement.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
@@ -412,12 +414,11 @@
               "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseSchedManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:25:57.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T12:25:57.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CourseManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseManagement.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseManagement.cs",
@@ -428,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Add.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseControl\\Add.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseControl\\Add.cs",
@@ -440,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Add.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseControl\\Add.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseControl\\Add.cs",
@@ -451,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EnrolledList.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrolledList.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrolledList.cs",
@@ -463,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EnrolledList.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrolledList.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentEnrollmentControl\\EnrolledList.cs",
@@ -474,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Layout.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Layout.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Layout.cs",
@@ -486,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Home.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\Home.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\Home.cs",
@@ -497,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\Home.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\Home.cs",
@@ -509,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Layout.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Layout.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Layout.cs",
@@ -517,18 +518,6 @@
               "RelativeToolTip": "Pepito_Appsdev_Finals\\Layout.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T11:09:36.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SubjectSchedFile.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\SubjectSchedFile.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\SubjectSchedFile.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\SubjectSchedFile.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Model\\SubjectSchedFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:48:10.825Z"
             },
             {
               "$type": "Document",
@@ -789,19 +778,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "Add.cs",
-              "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
-              "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
-              "ToolTip": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
-              "RelativeToolTip": "Pepito_Appsdev_Finals\\Controller\\CourseScheduleControl\\Add.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAEwKcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:52:05.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
               "Title": "CourseManagement.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseManagement.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseManagement.cs",
@@ -813,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "StudentDataManagement.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentDataManagement.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentDataManagement.cs",
@@ -825,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "Edit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseControl\\Edit.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseControl\\Edit.cs",
@@ -836,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "Edit.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CoursePrerequisiteControl\\Edit.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CoursePrerequisiteControl\\Edit.cs",
@@ -848,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "Add.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CoursePrerequisiteControl\\Add.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CoursePrerequisiteControl\\Add.cs",
@@ -860,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "Edit.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\CourseControl\\Edit.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\CourseControl\\Edit.cs",
@@ -872,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "Edit.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentRecordControl\\Edit.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentRecordControl\\Edit.cs",
@@ -884,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "Edit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentRecordControl\\Edit.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentRecordControl\\Edit.cs",
@@ -895,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "Add.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Controller\\StudentRecordControl\\Add.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Controller\\StudentRecordControl\\Add.cs",
@@ -907,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "SubjectPreqFile.cs",
               "DocumentMoniker": "C:\\Users\\nikop\\OneDrive\\Desktop\\dev\\Pepito_Appsdev_Finals\\Pepito_Appsdev_Finals\\Model\\SubjectPreqFile.cs",
               "RelativeDocumentMoniker": "Pepito_Appsdev_Finals\\Model\\SubjectPreqFile.cs",

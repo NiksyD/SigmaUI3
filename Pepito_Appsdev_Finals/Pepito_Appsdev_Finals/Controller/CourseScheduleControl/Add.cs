@@ -73,7 +73,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
         private void BTNSave_Click(object sender, EventArgs e)
         {
             // Validate required fields
-            if (string.IsNullOrWhiteSpace(TBSubjectCode.Text) ||
+            if (string.IsNullOrWhiteSpace(TBEdpCode.Text) ||
                 string.IsNullOrWhiteSpace(TBSubjectCode.Text) ||
                 string.IsNullOrWhiteSpace(CBDays.Text) ||
                 string.IsNullOrWhiteSpace(TBRoom.Text) ||
@@ -135,7 +135,7 @@ namespace Pepito_Appsdev_Finals.Controller.CourseScheduleControl
                 // Create new schedule object
                 var schedule = new SubjectSchedFile
                 {
-                    SSFEDPCODE = TBSubjectCode.Text.Trim(),
+                    SSFEDPCODE = TBEdpCode.Text.Trim(),
                     SSFSUBJCODE = TBSubjectCode.Text.Trim(),
                     SSFSTARTTIME = DateTime.Today.Add(startTime), // Convert TimeSpan to DateTime
                     SSFENDTIME = DateTime.Today.Add(endTime), // Convert TimeSpan to DateTime

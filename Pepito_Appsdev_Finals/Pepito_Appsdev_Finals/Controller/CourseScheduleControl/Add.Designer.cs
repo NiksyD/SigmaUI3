@@ -36,6 +36,10 @@
             this.BTNSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BTNCancel = new Guna.UI2.WinForms.Guna2GradientButton();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.TBEdpCode = new Guna.UI2.WinForms.Guna2TextBox();
+            this.TBSubjectCode = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.subjectFileBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.appsdevEnrollmentDataSet3 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet3();
             this.CBDays = new Guna.UI2.WinForms.Guna2ComboBox();
             this.DTPStartTime = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.DTPEndTime = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -49,23 +53,19 @@
             this.TBClassSection = new Guna.UI2.WinForms.Guna2TextBox();
             this.DTPYear = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.TBSubjectCode = new Guna.UI2.WinForms.Guna2ComboBox();
             this.appsdevEnrollmentDataSet1 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet1();
             this.appsdevEnrollmentDataSet2 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet2();
             this.appsdevEnrollmentDataSet = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet();
-            this.TBEdpCode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.appsdevEnrollmentDataSet3 = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet3();
-            this.subjectFileBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.subjectFileTableAdapter = new Pepito_Appsdev_Finals.AppsdevEnrollmentDataSet3TableAdapters.SubjectFileTableAdapter();
             this.ControlPanel.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subjectFileBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDClassMaxSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDStudentEnrolledCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.subjectFileBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -173,6 +173,70 @@
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(375, 606);
             this.flowLayoutPanel1.TabIndex = 8;
+            // 
+            // TBEdpCode
+            // 
+            this.TBEdpCode.Animated = true;
+            this.TBEdpCode.BackColor = System.Drawing.Color.Transparent;
+            this.TBEdpCode.BorderRadius = 15;
+            this.TBEdpCode.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TBEdpCode.CustomizableEdges.BottomLeft = false;
+            this.TBEdpCode.CustomizableEdges.TopRight = false;
+            this.TBEdpCode.DefaultText = "";
+            this.TBEdpCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TBEdpCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TBEdpCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TBEdpCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TBEdpCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.TBEdpCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBEdpCode.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TBEdpCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.TBEdpCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBEdpCode.Location = new System.Drawing.Point(5, 5);
+            this.TBEdpCode.Margin = new System.Windows.Forms.Padding(0);
+            this.TBEdpCode.Name = "TBEdpCode";
+            this.TBEdpCode.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.TBEdpCode.PlaceholderText = "EDP Code";
+            this.TBEdpCode.SelectedText = "";
+            this.TBEdpCode.ShadowDecoration.Color = System.Drawing.Color.White;
+            this.TBEdpCode.ShadowDecoration.Depth = 20;
+            this.TBEdpCode.Size = new System.Drawing.Size(365, 36);
+            this.TBEdpCode.TabIndex = 2;
+            // 
+            // TBSubjectCode
+            // 
+            this.TBSubjectCode.BackColor = System.Drawing.Color.Transparent;
+            this.TBSubjectCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.TBSubjectCode.BorderRadius = 15;
+            this.TBSubjectCode.CustomizableEdges.BottomLeft = false;
+            this.TBSubjectCode.CustomizableEdges.TopRight = false;
+            this.TBSubjectCode.DataSource = this.subjectFileBindingSource;
+            this.TBSubjectCode.DisplayMember = "SFSUBJCODE";
+            this.TBSubjectCode.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.TBSubjectCode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TBSubjectCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.TBSubjectCode.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBSubjectCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TBSubjectCode.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TBSubjectCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
+            this.TBSubjectCode.ItemHeight = 30;
+            this.TBSubjectCode.Location = new System.Drawing.Point(5, 51);
+            this.TBSubjectCode.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.TBSubjectCode.Name = "TBSubjectCode";
+            this.TBSubjectCode.ShadowDecoration.Color = System.Drawing.Color.White;
+            this.TBSubjectCode.ShadowDecoration.Depth = 20;
+            this.TBSubjectCode.Size = new System.Drawing.Size(365, 36);
+            this.TBSubjectCode.TabIndex = 15;
+            // 
+            // subjectFileBindingSource
+            // 
+            this.subjectFileBindingSource.DataMember = "SubjectFile";
+            this.subjectFileBindingSource.DataSource = this.appsdevEnrollmentDataSet3;
+            // 
+            // appsdevEnrollmentDataSet3
+            // 
+            this.appsdevEnrollmentDataSet3.DataSetName = "AppsdevEnrollmentDataSet3";
+            this.appsdevEnrollmentDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // CBDays
             // 
@@ -306,11 +370,13 @@
             // NUDStudentEnrolledCount
             // 
             this.NUDStudentEnrolledCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.NUDStudentEnrolledCount.Enabled = false;
             this.NUDStudentEnrolledCount.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.NUDStudentEnrolledCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
             this.NUDStudentEnrolledCount.Location = new System.Drawing.Point(5, 346);
             this.NUDStudentEnrolledCount.Margin = new System.Windows.Forms.Padding(0);
             this.NUDStudentEnrolledCount.Name = "NUDStudentEnrolledCount";
+            this.NUDStudentEnrolledCount.ReadOnly = true;
             this.NUDStudentEnrolledCount.Size = new System.Drawing.Size(365, 25);
             this.NUDStudentEnrolledCount.TabIndex = 14;
             // 
@@ -418,31 +484,6 @@
             this.guna2DragControl1.TargetControl = this.ControlPanel;
             this.guna2DragControl1.UseTransparentDrag = true;
             // 
-            // TBSubjectCode
-            // 
-            this.TBSubjectCode.BackColor = System.Drawing.Color.Transparent;
-            this.TBSubjectCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.TBSubjectCode.BorderRadius = 15;
-            this.TBSubjectCode.CustomizableEdges.BottomLeft = false;
-            this.TBSubjectCode.CustomizableEdges.TopRight = false;
-            this.TBSubjectCode.DataSource = this.subjectFileBindingSource;
-            this.TBSubjectCode.DisplayMember = "SFSUBJCODE";
-            this.TBSubjectCode.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.TBSubjectCode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.TBSubjectCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.TBSubjectCode.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBSubjectCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBSubjectCode.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.TBSubjectCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.TBSubjectCode.ItemHeight = 30;
-            this.TBSubjectCode.Location = new System.Drawing.Point(5, 51);
-            this.TBSubjectCode.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.TBSubjectCode.Name = "TBSubjectCode";
-            this.TBSubjectCode.ShadowDecoration.Color = System.Drawing.Color.White;
-            this.TBSubjectCode.ShadowDecoration.Depth = 20;
-            this.TBSubjectCode.Size = new System.Drawing.Size(365, 36);
-            this.TBSubjectCode.TabIndex = 15;
-            // 
             // appsdevEnrollmentDataSet1
             // 
             this.appsdevEnrollmentDataSet1.DataSetName = "AppsdevEnrollmentDataSet1";
@@ -457,45 +498,6 @@
             // 
             this.appsdevEnrollmentDataSet.DataSetName = "AppsdevEnrollmentDataSet";
             this.appsdevEnrollmentDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // TBEdpCode
-            // 
-            this.TBEdpCode.Animated = true;
-            this.TBEdpCode.BackColor = System.Drawing.Color.Transparent;
-            this.TBEdpCode.BorderRadius = 15;
-            this.TBEdpCode.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TBEdpCode.CustomizableEdges.BottomLeft = false;
-            this.TBEdpCode.CustomizableEdges.TopRight = false;
-            this.TBEdpCode.DefaultText = "";
-            this.TBEdpCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TBEdpCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TBEdpCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBEdpCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TBEdpCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.TBEdpCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBEdpCode.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TBEdpCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
-            this.TBEdpCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TBEdpCode.Location = new System.Drawing.Point(5, 5);
-            this.TBEdpCode.Margin = new System.Windows.Forms.Padding(0);
-            this.TBEdpCode.Name = "TBEdpCode";
-            this.TBEdpCode.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.TBEdpCode.PlaceholderText = "EDP Code";
-            this.TBEdpCode.SelectedText = "";
-            this.TBEdpCode.ShadowDecoration.Color = System.Drawing.Color.White;
-            this.TBEdpCode.ShadowDecoration.Depth = 20;
-            this.TBEdpCode.Size = new System.Drawing.Size(365, 36);
-            this.TBEdpCode.TabIndex = 2;
-            // 
-            // appsdevEnrollmentDataSet3
-            // 
-            this.appsdevEnrollmentDataSet3.DataSetName = "AppsdevEnrollmentDataSet3";
-            this.appsdevEnrollmentDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // subjectFileBindingSource
-            // 
-            this.subjectFileBindingSource.DataMember = "SubjectFile";
-            this.subjectFileBindingSource.DataSource = this.appsdevEnrollmentDataSet3;
             // 
             // subjectFileTableAdapter
             // 
@@ -519,13 +521,13 @@
             this.ControlPanel.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subjectFileBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDClassMaxSize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDStudentEnrolledCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.appsdevEnrollmentDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.subjectFileBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
